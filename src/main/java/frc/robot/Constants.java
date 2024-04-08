@@ -5,6 +5,8 @@ import com.techhounds.houndutil.houndlib.swerve.CoaxialSwerveModule.SwerveConsta
 import edu.wpi.first.math.geometry.Transform2d;
 import edu.wpi.first.math.geometry.Translation2d;
 import edu.wpi.first.math.kinematics.SwerveDriveKinematics;
+import edu.wpi.first.math.kinematics.SwerveModulePosition;
+import edu.wpi.first.math.kinematics.SwerveModuleState;
 import edu.wpi.first.math.system.plant.DCMotor;
 import edu.wpi.first.math.util.Units;
 
@@ -20,6 +22,16 @@ public class Constants {
             public static final boolean STEER_ENCODER_INVERTED = false;
 
             public static final double MAGNET_OFFSET = 0.23583984375;
+
+            public static SwerveModulePosition getPosition() {
+                // TODO Auto-generated method stub
+                throw new UnsupportedOperationException("Unimplemented method 'getPosition'");
+            }
+
+            public static SwerveModuleState getState() {
+                // TODO Auto-generated method stub
+                throw new UnsupportedOperationException("Unimplemented method 'getState'");
+            }
         }
 
         public static final class FrontRight {
@@ -32,6 +44,16 @@ public class Constants {
             public static final boolean STEER_ENCODER_INVERTED = false;
 
             public static final double MAGNET_OFFSET = 0.138916015625;
+
+            public static SwerveModulePosition getPosition() {
+                // TODO Auto-generated method stub
+                throw new UnsupportedOperationException("Unimplemented method 'getPosition'");
+            }
+
+            public static SwerveModuleState getState() {
+                // TODO Auto-generated method stub
+                throw new UnsupportedOperationException("Unimplemented method 'getState'");
+            }
         }
 
         public static final class BackLeft {
@@ -44,6 +66,16 @@ public class Constants {
             public static final boolean STEER_ENCODER_INVERTED = false;
 
             public static final double MAGNET_OFFSET = 0.059814453125;
+
+            public static SwerveModulePosition getPosition() {
+                // TODO Auto-generated method stub
+                throw new UnsupportedOperationException("Unimplemented method 'getPosition'");
+            }
+
+            public static SwerveModuleState getState() {
+                // TODO Auto-generated method stub
+                throw new UnsupportedOperationException("Unimplemented method 'getState'");
+            }
         }
 
         public static final class BackRight {
@@ -56,6 +88,16 @@ public class Constants {
             public static final boolean STEER_ENCODER_INVERTED = false;
 
             public static final double MAGNET_OFFSET = -0.26953125;
+
+            public static SwerveModulePosition getPosition() {
+                // TODO Auto-generated method stub
+                throw new UnsupportedOperationException("Unimplemented method 'getPosition'");
+            }
+
+            public static SwerveModuleState getState() {
+                // TODO Auto-generated method stub
+                throw new UnsupportedOperationException("Unimplemented method 'getState'");
+            }
         }
 
         public static final SwerveConstants SWERVE_CONSTANTS = new SwerveConstants();

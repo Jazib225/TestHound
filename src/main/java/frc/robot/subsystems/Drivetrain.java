@@ -8,7 +8,7 @@ import java.util.function.Supplier;
 import com.kauailabs.navx.frc.AHRS;
 import com.pathplanner.lib.path.PathConstraints;
 import com.pathplanner.lib.path.PathPlannerPath;
-import com.techhounds.houndutil.houndlib.MotorHoldMode;
+import com.techhounds.houndutil.houndlib.MotorHoldMode; 
 import com.techhounds.houndutil.houndlib.subsystems.BaseSwerveDrive;
 import com.techhounds.houndutil.houndlib.swerve.NEOCoaxialSwerveModule;
 import com.techhounds.houndutil.houndlog.interfaces.Log;
@@ -99,20 +99,20 @@ public class Drivetrain extends SubsystemBase implements BaseSwerveDrive {
     @Override
     public SwerveModulePosition[] getModulePositions() {
         return new SwerveModulePosition[] {
-                frontLeft.getPosition(),
-                frontRight.getPosition(),
-                backLeft.getPosition(),
-                backRight.getPosition()
+                FrontLeft.getPosition(),
+                FrontRight.getPosition(),
+                BackLeft.getPosition(),
+                BackRight.getPosition()
         };
     }
 
     @Override
     public SwerveModuleState[] getModuleStates() {
         return new SwerveModuleState[] {
-                frontLeft.getState(),
-                frontRight.getState(),
-                backLeft.getState(),
-                backRight.getState()
+                FrontLeft.getState(),
+                FrontRight.getState(),
+                BackLeft.getState(),
+                BackRight.getState()
         };
     }
 
